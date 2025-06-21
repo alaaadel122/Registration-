@@ -1,7 +1,7 @@
 .regestration,
 .home {
      height: 100vh;
-     background-image: url("./img/img.jpg");
+     background-image: url("../img/img.jpg");
      background-position: center;
      background-size: cover;
      position: relative;

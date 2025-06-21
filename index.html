@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Login</title>
+     <link rel="stylesheet" href="./css/all.min.css">
+     <link rel="stylesheet" href="./css/bootstrap.min.css">
+     <link rel="stylesheet" href="./css/main.css">
+     <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+     <div class="home d-none" id="home">
+          <nav class="navbar  fixed-top pt-4">
+               <div class="container">
+                    <a class="navbar-brand" id="navbarName"></a>
+                    <form class="d-flex me-5" role="search">
+                         <button class="btn btn-outline-light "  id="signOut"><i
+                                   class="fa-solid fa-right-from-bracket"></i> SignOut</button>
+                    </form>
+               </div>
+          </nav>
+          <div class="d-flex justify-content-center align-items-center " style="height: 100vh;">
+               <div class="infoConatoner d-flex justify-content-center align-items-center ">
+                    <h3 id="loginInfo"></h3>
+               </div>
+          </div>
+     </div>
+     <section class="regestration d-flex justify-content-center align-items-center" id="login">
+          <div class="overlay-img"></div>
+          <div class="loginContent  rounded-4  text-center" id="loginContent">
+               <p class="alert alert-danger d-none" id="errorMsg"></p>
+               <h3 class="text-white" id="formTitle">Login</h3>
+               <div class="form-floating mb-3 d-none" id="nameDiv">
+                    <input type="name" class="form-control" id="userName" placeholder="name@example.com">
+                    <label for="name" class="text-white">Name</label>
+               </div>
+               <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    <label for="email" class="text-white">Email address</label>
+               </div>
+               <div class="form-floating">
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                    <label for="password" class="text-white">Password</label>
+               </div>
+               <button class="form-control btnLogin mt-4 d-block" id="loginBtn">Login</button>
+               <button class="form-control btnLogin mt-4 d-none" id="signUpBtn">Sign Up</button>
+               <div class="signUp d-block" id="actionSignUp">
+                    <p class="text-white">Don’t have an account? <a href="#" class="text-white text-decoration-none"
+                              id="registerBtn">Sign Up</a></p>
+
+               </div>
+               <div class="login d-none" id="actionLogin">
+                    <p class="text-white">You have an account? <a href="#" class="text-white text-decoration-none"
+                              id="signInBtn">Sign In</a></p>
+
+               </div>
+
+          </div>
+     </section>
+
+     <script src="/js/bootstrap.bundle.min.js"></script>
+     <script src="/js/main.js"></script>
+</body>
+
+</html>

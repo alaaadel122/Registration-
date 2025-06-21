@@ -1,0 +1,60 @@
+.regestration,
+.home {
+     height: 100vh;
+     background-image: url("/img/img.jpg");
+     background-position: center;
+     background-size: cover;
+     position: relative;
+}
+
+.overlay-img {
+     position: absolute;
+     inset: 0;
+     /* background-color: rgba(0, 0, 0, 0.6); */
+}
+
+.loginContent {
+     width: 30%;
+     padding: 30px;
+     backdrop-filter: blur(20px);
+     background: transparent;
+     border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.form-control {
+
+     color: #fff !important;
+     border-radius: 25px;
+     background-color: transparent;
+}
+
+.form-control:focus {
+     color: white;
+     background-color: transparent;
+     border-color: #9345C9;
+     outline: 0;
+     box-shadow: 0 0 0 .25rem rgba(184, 4, 175, 0.25);
+}
+
+.btnLogin {
+     background-color: #fff;
+     color: black !important;
+}
+
+.btnLogin:hover {
+     background-color: transparent;
+     color: #fff;
+     border: 1px solid black;
+}
+
+.infoConatoner {
+     width: 80%;
+     height: 200px;
+     margin: auto;
+     background-color: transparent;
+     backdrop-filter: blur(20px);
+     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+     text-align: center;
+}
